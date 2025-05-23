@@ -14,6 +14,9 @@ dotenv.config({
 })
 
 export default defineConfig({
+  build: {
+    outDir: 'dist/output/public',
+  },
   resolve: {
     alias: {
       "~": join(projectDir, "src"),
