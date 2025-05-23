@@ -1,4 +1,4 @@
 compatibility_date = "2024-10-16"
 
 [site]
-bucket = "./dist"
+bucket = "./dist/output/public"
